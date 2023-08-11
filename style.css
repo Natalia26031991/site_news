@@ -54,6 +54,15 @@ article img {
 	object-fit: cover;
 }
 
+article:nth-child(even) {
+	background-color: lightyellow;
+}
+
+h2.new::before {
+	content: "New ";
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 footer {
 	padding-top: 20px;
 	padding-bottom: 60px;
